@@ -1,12 +1,13 @@
-## Repeated XOR 2: Electric Boogaloo
+#### Challenge Information
 
 CTF name: Aarhus CTF, 10/05/2019  
+Team name: Sweaty Blanket Monsters
 Challenge name: Repeated XOR 2: Electric Boogaloo  
 Challenge description: Decrypt 500x281 image encrypted by 10 byte repeating xor encryption  
 Challenge category => Crypto  
 Challenge points => 499/500, (2 teams solved)
 
-### 
+### Repeated XOR 2: Electric Boogaloo
 The challenge gave us a binary file called "flag.bin", and the following description.  
 > Here's another repeated XOR encryption. The key is 10 bytes and the plaintext is a 500x281 image.  
 
@@ -43,6 +44,3 @@ And incase the picture is too hard to read, the key is also present in text form
 ![infile flag](https://raw.githubusercontent.com/killerdogice/CTF-Files/master/writeups/Repeated%20XOR%202%20Electric%20Boogaloo/writeupimages/infile%20flag.PNG)
 
 Overall an interesting, but not too theoretically or technically challenging flag. I assume the reason it had so few solves was mainly because it came out quite late during the event, and a lot of teams had probably been scared away from the later crypto puzzles by some of the harder challenges which were released before it.
-
--Adam B. Hansen
-Sweaty Blanket Monsters
