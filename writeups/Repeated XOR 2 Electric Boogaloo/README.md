@@ -11,7 +11,7 @@ Challenge points => 499/500, (2 teams solved)
 The challenge gave us a binary file called "flag.bin", and the following description.  
 > Here's another repeated XOR encryption. The key is 10 bytes and the plaintext is a 500x281 image.  
 
-This gives us two important pieces of information from which to start.  
+This gives us several important pieces of information from which to start.  
 1. The encryption is *repeating XOR* with a *10 byte key*. This means if we can find the key, we simply have to repeatedly XOR the flag.bin file with it to decrypt it, and hopefully claim our flag.  
 2. The file is a 500x281 pixel image file. This means that, unlike the previous XOR challenge which had an english language plaintext, we can't use letter frequencies or knowledge of ascii characters to carry out an analysis.  
 On the other hand, this likely limits it to one of the common images types like .jpeg, .png, .gif, .bmp etc.
