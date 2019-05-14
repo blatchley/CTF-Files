@@ -35,7 +35,7 @@ XOR'ing this with the first 10 bytes of the *flag.bin* file using an [online xor
 
 Now all that's left is to XOR the flag.bin file by the byte representation of this string. It was 4am, so I just repeatedly pasted "key=Banana" into a notepad++ document and saved it as *key.bin*, making sure the file was larger than the image file. I then reused some code I found for an earlier challenge which XOR'd two files. This code is given above in the file [*xorfiles.py*](https://github.com/killerdogice/CTF-Files/blob/master/writeups/Repeated%20XOR%202%20Electric%20Boogaloo/xorfiles.py).
 
-Running this code with the arguments '>python xorfiles.py flag.bin key.bin output.gif' creates the output.gif file which is as follows.
+Running this code with the arguments '/>python xorfiles.py flag.bin key.bin output.gif' creates the output.gif file which is as follows.
 
 ![output.gif](https://raw.githubusercontent.com/killerdogice/CTF-Files/master/writeups/Repeated%20XOR%202%20Electric%20Boogaloo/output.gif)
 
