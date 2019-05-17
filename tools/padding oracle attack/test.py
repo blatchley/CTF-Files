@@ -12,19 +12,22 @@ def attack(message):
             for x in range(256):
                 # tested byte
                 block[-i] = x
+                # check to avoid cutting off end
                 if x == i:
                     continue
-                
+               
                 # alter message
                 test = bytearray(message)
                 for j in range(16):
                     test[-32 + j] ^= block[j] ^ pad[j]
+                # print(test)
                 test = bytes(test)
                 responsecode = oracle(test)
                 if responsecode == 200:
+                    # print(block)
                     break
-                if responsecode == 500:
-                    pass
+                # if responsecode == 500:
+                #     pass
             else:
                 block[-i] = i
         # store retrieved block and continue
