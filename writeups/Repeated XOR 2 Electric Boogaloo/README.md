@@ -44,3 +44,7 @@ And incase the picture is too hard to read, the key is also present in text form
 ![infile flag](https://raw.githubusercontent.com/killerdogice/CTF-Files/master/writeups/Repeated%20XOR%202%20Electric%20Boogaloo/writeupimages/infile%20flag.PNG)
 
 Overall an interesting, but not too theoretically or technically challenging flag. I assume the reason it had so few solves was mainly because it came out quite late during the event, and a lot of teams had probably been scared away from the later crypto puzzles by some of the more theoretically complex challenges which were released before it.
+
+---
+*Writeup by Adam B. Hansen*
+*https://github.com/killerdogice/CTF-Files/tree/master/writeups*
